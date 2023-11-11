@@ -17,7 +17,7 @@ window.onscroll = function(){
     var scrollAmount = window.pageYOffset;
     var drinkImage = document.querySelector(".drink-image");
     console.log(scrollAmount);
-    if (scrollAmount > 715) {
+    if (scrollAmount > 550) {
         drinkImage.src = "images/drink-images/Untitled_Artwork-2.png";
     }
     
@@ -33,23 +33,23 @@ window.onscroll = function(){
         drinkImage.src = "images/drink-images/Untitled_Artwork-5.png";
     }
 
-    if (scrollAmount > 795){
+    if (scrollAmount > 800){
         drinkImage.src = "images/drink-images/Untitled_Artwork-6.png";
     }
 
-    if (scrollAmount > 815){
+    if (scrollAmount > 830){
         drinkImage.src = "images/drink-images/Untitled_Artwork-7.png";
     }
 
-    if (scrollAmount > 835){
+    if (scrollAmount > 850){
         drinkImage.src = "images/drink-images/Untitled_Artwork-8.png";
     }
 
-    if (scrollAmount > 855){
+    if (scrollAmount > 900){
         drinkImage.src = "images/drink-images/Untitled_Artwork-9.png";
     }
 
-    if (scrollAmount > 835){
+    if (scrollAmount > 950){
         drinkImage.src = "images/drink-images/Untitled_Artwork-10.png";
     }
 }
